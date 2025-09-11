@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikar Jayanthi Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header / Hero Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span class="lt">S</span>rikar <span class="lt">J</span>ayanthi</div>
+            
+                <!-- New wrapper -->
+                <div class="nav-right">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#credentials">Credentials</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+
+ 
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                                        <div id="theme-toggle" class="theme-btn" title="Toggle Light/Dark Theme">
+                                            <i class="fa-solid fa-sun"></i>
+                                            <div>
+
+                </div>
+            </nav>
+            <div class="hero">
+                <div class="hero-col-1">
+                    <div class="header-text">
+                        <h1>Hi, I'm <span>Srikar Jayanthi</span><br></h1>
+                        <p><span id="role"></span><span class="cursor"></span></p>
+                    </div>
+                </div>
+                <div class="hero-col-2">
+                    <img src="image.png" alt="Srikar Jayanthi">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an aspiring Full Stack Developer with a strong passion for creating impactful and
+                        user-friendly applications. Skilled in React Native and Java, I focus on building efficient,
+                        scalable, and robust solutions across web and mobile platforms. Continuously exploring new
+                        technologies, I aim to deliver digital experiences that combine innovation, functionality, and
+                        seamless design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <h2><i class="fa-solid fa-code"></i> Programming Languages</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2><i class="fa-brands fa-html5"></i> Web Development</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-toolbox"></i> Tools</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-desktop"></i> Operating Systems</h2>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2><i class="fa-solid fa-database"></i> Database Systems</h2>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Oracle SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience">
+        <div class="container">
+            <h1 class="sub-title">Experience</h1>
+            <div class="experience-list">
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>Full Stack Development Intern (React Native)<br>Technical Hub Pvt Ltd<br>May 2025 - June 2025
+                    </h2>
+                    <p>During my internship, I gained practical exposure to full stack development with a strong focus
+                        on React Native. I worked on building responsive and user-friendly web applications by
+                        implementing HTML structure, semantic elements, CSS styling, and layout techniques. I also
+                        applied
+                        media queries to ensure mobile responsiveness, enhancing the overall user experience. This
+                        internship strengthened my understanding of modern web development practices and improved my
+                        ability to create scalable and efficient solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <h2>SJ Connect - Senior Junior Interaction Platform</h2>
+                    <p>SJ Connect is a front-end web application designed to enhance senior-junior interaction by
+                        providing a platform to share experiences, ask doubts, and build meaningful connections. The
+                        project features role-based access with user and admin logins, a DoubtBox for Q&A, and an
+                        Experience Wall where seniors can post insights for juniors to learn from. Built using HTML,
+                        CSS,
+                        and JavaScript (ES6) with LocalStorage for data persistence, SJ Connect offers a responsive,
+                        modern
+                        UI and smooth navigation across all sections without relying on a backend.</p>
+                    <a href="https://github.com/Srikar-jayanthi/Web-Project" target="_blank">View Code</a>
+                    <a href="https://scintillating-starlight-bcfd36.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Credentials Section -->
+    <div id="credentials">
+        <div class="container">
+            <h1 class="sub-title">Credentials</h1>
+            <div class="credentials-list">
+                <div class="credential-card">
+                    <h2>Red Hat Certified System Administrator (RHCSA)</h2>
+                    <p>Earned certification from Red Hat, validating skills in Linux system administration,
+                        configuration, and troubleshooting.</p>
+                    <a href="https://www.credly.com/badges/23484bdc-2ead-4aa2-a75e-73c22e0017c5/public_url"
+                        target="_blank">View Certificate</a>
+                </div>
+                <div class="credential-card">
+                    <h2>Oracle Certified Foundations Associate - Java</h2>
+                    <p>Achieved Oracle certification in Java, demonstrating knowledge in programming fundamentals, OOP
+                        concepts, and software development practices.</p>
+                    <a href="#" target="_blank">View Certificate</a>
+                </div>
+                <div class="credential-card">
+                    <h2>Operating Systems Basics</h2>
+                    <p>Certified by Cisco Networking Academy, covering OS fundamentals, process management, and resource
+                        allocation concepts.</p>
+                    <a href="#" target="_blank">View Certificate</a>
+                </div>
+                <div class="credential-card">
+                    <h2>Python Essentials 1</h2>
+                    <p>Completed Cisco certification focused on Python programming basics, data structures, and
+                        problem-solving with Python.</p>
+                    <a href="#" target="_blank">View Certificate</a>
+                </div>
+                <div class="credential-card">
+                    <h2>Information Technology Specialist – HTML & CSS</h2>
+                    <p>Certified by Certiport/Pearson, demonstrating strong skills in front-end web development using
+                        HTML and CSS.</p>
+                    <a href="#" target="_blank">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h1 class="sub-title">Education</h1>
+            <div class="education-list">
+                <div>
+                    <h2>Bachelor of Technology in Computer Science</h2>
+                    <p>Completed undergraduate studies in Computer Science with a strong foundation in programming,
+                        software development, and problem-solving.</p>
+                    <p><strong>CGPA:</strong> 8.41</p>
+                </div>
+                <div>
+                    <h2>Pre-University / Intermediate</h2>
+                    <p>Focused on Mathematics, Physics, and Computer Science, building a solid base for higher studies
+                        in engineering.</p>
+                    <p><strong>CGPA:</strong> 9.25</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <div class="con">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> jayanthisrikar@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8074666956</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/8074666956"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/srikar-jayanthi-990253291/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Srikar. Made With <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
